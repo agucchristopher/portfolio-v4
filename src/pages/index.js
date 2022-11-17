@@ -8,6 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
+document.title = "Agu C Christopher"
   return (
     <Layout>
       <Section grid>
