@@ -4,8 +4,8 @@ export const projects = [
     description: "Using React, Node.js, Express & MongoDB. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://github.com/agucchristopher/memories_app',
-    visit: '',
+    source: 'https://github.com/agucchristopher/memories_app_frontend',
+    visit: 'https://chrismemories.netlify.app',
     id: 0,
   },
    {
@@ -13,8 +13,8 @@ export const projects = [
      description:"My portfolio website builted using next.js a react.js framework, css and node.js for backend",
      image: '/images/portfolio3.png',
      tags: ['React', 'JavaScript'],
-     source: 'https:google.com',
-     visit: 'https:google.com',
+     source: 'https:github.com/agucchristopher/portfolio-v4',
+     visit: '',
      id: 1,
    },
   // {
