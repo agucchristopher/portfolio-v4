@@ -13,10 +13,19 @@ export const projects = [
      description:"My portfolio website builted using next.js a react.js framework, css and node.js for backend",
      image: '/images/portfolio3.png',
      tags: ['React', 'JavaScript'],
-     source: 'https:google.com',
-     visit: 'https:google.com',
+     source: 'https://github.com/agucchristopher/portfolio-v4',
+     visit: 'https:agucchristopher.vercel.app',
      id: 1,
    },
+   {
+    title: 'React Dashboard',
+    description: 'Simple React Dashboard mde with synfusion',
+    image: '/images/dashboard.png',
+    tags: ['React', 'JavaScript', 'Tailwindcss'],
+    source: 'https:github.com/agucchristopher/react-dashboard',
+    visit: 'https:chrisdashboard.com',
+    id: 1,
+   }
   // {
   //   title: 'Unichat',
   //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",

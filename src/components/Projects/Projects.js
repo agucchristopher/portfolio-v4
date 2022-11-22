@@ -19,16 +19,17 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <h2>             <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
-              </TagList>
+              </TagList> </h2>
+ 
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks href={p.visit}>{' '}View{' '}</ExternalLinks>
+              <ExternalLinks href={p.source}>{' '} Code {' '}</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
